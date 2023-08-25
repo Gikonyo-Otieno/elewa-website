@@ -14,6 +14,9 @@ import { ElewaNewsItemCardComponent } from './elewa-news-item-card/elewa-news-it
     ElewaWebsitePriceItemCardComponent,
     ElewaNewsItemCardComponent,
   ],
-  exports: [ElewaInfoCardComponent, ElewaWebsitePriceItemCardComponent],
+  exports: [ElewaInfoCardComponent,
+     ElewaWebsitePriceItemCardComponent, 
+     ElewaNewsItemCardComponent
+    ],
 })
 export class CardsModule {}
